@@ -16,6 +16,9 @@ int main()
     bakery_obj.constantIterate();
     bakery_obj.viewOrderStatus("biscuit");
     bakery_obj.iterateStatus();
+    bakery_obj.printSizeStats();
+    bakery_obj.optimizeStorage();
+    bakery_obj.printSizeStats();
 
     return EXIT_SUCCESS;
 }
