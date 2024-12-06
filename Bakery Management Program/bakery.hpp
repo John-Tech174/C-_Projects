@@ -153,9 +153,10 @@ public:
     // Iterating through the order list using auto iterators
     // void autoIterate (void);
 
+    // Iterate through the orders' status
     void iterateStatus (void){
         std::cout << "The status of the order list : " << std::endl;
-        for (std::vector<std::string>::reverse_iterator status = order_status.rbegin();status != order_status.rend();++status){
+        for (std::vector<std::string>::iterator status = order_status.begin();status != order_status.end();++status){
             std::cout << *status << '\t';
         }
         std::cout << std::endl;
