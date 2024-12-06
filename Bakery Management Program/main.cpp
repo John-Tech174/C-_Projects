@@ -1,3 +1,5 @@
+// This main file is used to test some of the functions offered in the bakery class
+
 #include "bakery.hpp"
 
 int main()
