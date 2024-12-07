@@ -1,3 +1,4 @@
+// File Guard
 #ifndef _BAKERY_HPP_
 #define _BAKERY_HPP_
 
